@@ -1,0 +1,54 @@
+2018-09-25 16:18:03,034 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-25 16:18:03,042 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-25 16:18:03,043 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-25 16:18:03,043 [1] INFO  - Loaded appender: FileAppenderInternal
+2018-09-25 16:18:03,043 [1] INFO  - Loaded appender: FileAppenderExternal
+2018-09-25 16:18:03,044 [1] INFO  - Loaded appender: UserLoggerAppender
+2018-09-25 16:18:03,711 [10] INFO  - Step 'Start' : Step 'Start' started
+2018-09-25 16:18:03,739 [10] INFO  - Step 'Start' ended successfully
+2018-09-25 16:18:03,742 [10] INFO  - Step 'Test Flow' : Step 'Test Flow' started
+2018-09-25 16:18:03,745 [10] INFO  - Step 'Iteration 1' : Step 'Iteration 1' started
+2018-09-25 16:18:03,747 [10] INFO  - Step 'AccountLogin' : Step 'AccountLogin' started
+2018-09-25 16:18:03,761 [10] INFO  - 
+Request:
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <AccountLoginRequest xmlns="com.advantage.online.store.accountservice">
+      <loginUser>Miguel2109</loginUser>
+      <email />
+      <loginPassword>Prueba1234</loginPassword>
+    </AccountLoginRequest>
+  </Body>
+</Envelope>
+
+2018-09-25 16:18:03,776 [10] INFO  - URL: http://www.advantageonlineshopping.com:8081/accountservice/
+2018-09-25 16:18:04,499 [10] INFO  - Returning the response to the previous channel
+2018-09-25 16:18:04,508 [10] INFO  - 
+Response:
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header />
+  <SOAP-ENV:Body>
+    <ns2:AccountLoginResponse xmlns:ns2="com.advantage.online.store.accountservice">
+      <ns2:StatusMessage>
+        <ns2:success>true</ns2:success>
+        <ns2:userId>590585589</ns2:userId>
+        <ns2:reason>Login Successful</ns2:reason>
+        <ns2:token>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3d3cuYWR2YW50YWdlb25saW5lc2hvcHBpbmcuY29tIiwidXNlcklkIjo1OTA1ODU1ODksInN1YiI6Ik1pZ3VlbDIxMDkiLCJyb2xlIjoiVVNFUiJ9.neD1DmUzyq59nrYx1VDBeaCj2mCiAttuMhLZ6Xu0E6g</ns2:token>
+        <ns2:sessionId>166122b7be0@7E2919131233^i%590585589</ns2:sessionId>
+        <ns2:t_authorization>TWlndWVsMjEwOTpQcnVlYmExMjM0</ns2:t_authorization>
+        <ns2:accountType>20</ns2:accountType>
+      </ns2:StatusMessage>
+    </ns2:AccountLoginResponse>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+2018-09-25 16:18:04,520 [10] INFO  - The element 'StatusMessage' in namespace 'com.advantage.online.store.accountservice' has invalid child element 't_authorization' in namespace 'com.advantage.online.store.accountservice'. 
+
+2018-09-25 16:18:04,524 [10] INFO  - Structural Validation: False
+2018-09-25 16:18:04,527 [10] INFO  - Step 'AccountLogin' ended successfully
+2018-09-25 16:18:04,529 [10] INFO  - Step 'Iteration 1' ended successfully
+2018-09-25 16:18:04,531 [10] INFO  - Step 'Test Flow' ended successfully
+2018-09-25 16:18:04,532 [10] INFO  - Step 'End' : Step 'End' started
+2018-09-25 16:18:04,541 [10] INFO  - Step 'End' ended successfully

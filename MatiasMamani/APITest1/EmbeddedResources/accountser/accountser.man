@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>b5706686-3afa-4ccf-86de-869bb363b3ee</ID>
+  <Name>accountser</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2018-09-25T15:18:54.7092772-03:00</CreationDate>
+  <UpdateDate>2018-09-25T15:18:54.7092772-03:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>b066208f-656f-4d11-8c25-91abfb0aff5b.xml</MetaDataSignatureFile>
+  <TestResourceId>b066208f-656f-4d11-8c25-91abfb0aff5b</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>14.50.76.0</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\MatiasGonzaloMamani\Documents\Unified Functional Testing\APITest1\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\MatiasGonzaloMamani\Documents\Unified Functional Testing\APITest1\EmbeddedResources\accountser</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>14.50.76.0</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>
