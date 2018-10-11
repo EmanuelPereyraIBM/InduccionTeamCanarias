@@ -1,0 +1,9 @@
+﻿<Properties>
+  <WatchEntry0 value="carritoPagar().WebButton(&quot;btnPagarEnCarrito&quot;)" />
+  <WatchEntry1 value="carritoPagar().WebButton(&quot;btnPagarEnCarrito&quot;)" />
+  <WatchEntry2 value="Browser(&quot;Browser Explorer&quot;).Page(&quot;CarritoCristobal&quot;)" />
+  <WatchEntry3 value="PagarVino().WebElement(&quot;lblProcesoCompra&quot;).GetROProperty(&quot;innertext&quot;)" />
+  <WatchEntry4 value="If  nom = &quot;Proceso de Compra&quot; Then" />
+  <WatchEntry5 value="If  nom = &quot;Proceso de Compra&quot;" />
+  <WatchEntry6 value="nom = &quot;Proceso de Compra&quot;" />
+</Properties>
